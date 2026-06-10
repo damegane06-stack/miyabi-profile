@@ -185,18 +185,18 @@ body{
 /* ── LIGHTBOX ── */
 .lightbox{
   display:none;position:fixed;inset:0;
-  background:rgba(0,0,0,0.92);z-index:100;
+  background:rgba(0,0,0,0.95);z-index:100;
   align-items:center;justify-content:center;
-  padding:24px;
+  padding:60px 8px 40px;
 }
 .lightbox.open{display:flex}
 .lightbox img{
-  max-width:90vw;max-height:88vh;
+  max-width:96vw;max-height:85vh;
   object-fit:contain;
   border:0.5px solid var(--border2);
 }
 .lb-close{
-  position:absolute;top:20px;right:28px;
+  position:absolute;top:16px;right:20px;
   font-size:28px;color:var(--text3);
   cursor:pointer;background:none;border:none;
   transition:color 0.2s;
@@ -204,30 +204,30 @@ body{
 .lb-close:hover{color:var(--gold2)}
 .lb-nav{
   position:absolute;top:50%;transform:translateY(-50%);
-  background:none;border:0.5px solid var(--border2);
-  color:var(--text2);font-size:22px;
-  width:44px;height:64px;
+  background:rgba(0,0,0,0.4);border:0.5px solid var(--border2);
+  color:var(--text2);font-size:20px;
+  width:36px;height:56px;
   cursor:pointer;transition:all 0.2s;
   display:flex;align-items:center;justify-content:center;
   font-family:'Josefin Sans',sans-serif;
   letter-spacing:-1px;
 }
 .lb-nav:hover{color:var(--gold2);border-color:var(--gold);background:rgba(184,150,106,0.08)}
-.lb-prev{left:20px}
-.lb-next{right:20px}
+.lb-prev{left:4px}
+.lb-next{right:4px}
 .lb-counter{
-  position:absolute;bottom:20px;left:50%;transform:translateX(-50%);
+  position:absolute;bottom:14px;left:50%;transform:translateX(-50%);
   font-family:'Josefin Sans',sans-serif;
   font-size:10px;letter-spacing:0.2em;
   text-transform:uppercase;color:var(--text3);
 }
 .lb-img-wrap{
   position:relative;
-  max-width:90vw;max-height:88vh;
+  max-width:96vw;max-height:85vh;
   display:flex;align-items:center;justify-content:center;
 }
 #lb-img{
-  max-width:100%;max-height:88vh;
+  max-width:100%;max-height:85vh;
   object-fit:contain;
   border:0.5px solid var(--border2);
   transition:opacity 0.18s ease;
@@ -460,27 +460,57 @@ footer{
     <div class="tl" id="tl">
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-year">2026</div>
-        <div class="tl-title">写真的志 京都展 参加</div>
-        <div class="tl-desc">「スクロールの先で、出会い。」から縁が繋がり、写真的志 京都展に参加。祇園祭を盛り上げる京都の展示へ。</div>
+        <div class="tl-year">2026 / 7</div>
+        <div class="tl-title">Photographic Aspiration 京都展 参加決定</div>
+        <div class="tl-desc">合同写真展「スクロールの先で、出会う。」に続き、京都展への参加が決定。</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-year">2024</div>
-        <div class="tl-title">グループ写真展「スクロールの先で、出会い。」</div>
-        <div class="tl-desc">SNSで繋がった写真家たちとのグループ展に参加。オンラインからリアルへ広がる縁。</div>
+        <div class="tl-year">2026 / 5</div>
+        <div class="tl-title">合同写真展「スクロールの先で、出会う。」参加</div>
+        <div class="tl-desc">SNSで繋がった写真家たちとの合同写真展に参加。</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-year">2022</div>
-        <div class="tl-title">本格的な写真活動開始</div>
-        <div class="tl-desc">Nikon Z6 IIを手に、兵庫・関西の動物や自然を中心に撮影活動をスタート。Twitterでの発信も本格化。</div>
+        <div class="tl-year">2026 / 2</div>
+        <div class="tl-title">CP+ ニコンSNSギャラリーにて展示</div>
+        <div class="tl-desc">カメラと写真映像のワールドプレミアショーCP+にて、ニコンSNSギャラリーに作品を展示。</div>
       </div>
       <div class="tl-item">
         <div class="tl-dot"></div>
-        <div class="tl-year">1995</div>
-        <div class="tl-title">Born — 11月5日</div>
-        <div class="tl-desc">兵庫生まれ。</div>
+        <div class="tl-year">2025 / 12</div>
+        <div class="tl-title">cizucu主催「photo poster project（神戸）」参加</div>
+        <div class="tl-desc">cizucu主催のphoto poster projectに参加。神戸での展示。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2025 / 8</div>
+        <div class="tl-title">cizucu主催「photo poster project（大阪）」参加</div>
+        <div class="tl-desc">cizucu主催のphoto poster projectに参加。大阪での展示。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2025 / 2</div>
+        <div class="tl-title">CP+ ニコンSNSギャラリーにて展示</div>
+        <div class="tl-desc">CP+にてニコンSNSギャラリーに作品を展示。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2023 / 10</div>
+        <div class="tl-title">「Fine Art photography vol.3」参加</div>
+        <div class="tl-desc">ファインアート写真展vol.3に参加。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2023 / 10</div>
+        <div class="tl-title">写真展「私色の日常 Vol.3」参加</div>
+        <div class="tl-desc">好評を博した「私色の日常」シリーズの第3弾に参加。</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2023 / 3</div>
+        <div class="tl-title">写真展「私色の日常」参加</div>
+        <div class="tl-desc">初の写真展参加。自身の日常をテーマにした作品を展示。</div>
       </div>
     </div>
   </div>
